@@ -1,11 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disable
-
-namespace RESTfulAPI.Migrations
+namespace RESTfulAPI.Data.Migrations
 {
-    /// <inheritdoc />
     public partial class InitialCreate : Migration
     {
         /// <inheritdoc />

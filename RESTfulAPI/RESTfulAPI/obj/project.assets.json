@@ -9006,11 +9006,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
+      "projectUniqueName": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
       "projectName": "RESTfulAPI",
-      "projectPath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
+      "projectPath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
       "packagesPath": "C:\\Users\\xbbro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\RESTfulAPI\\RESTfulAPI\\obj\\",
+      "outputPath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

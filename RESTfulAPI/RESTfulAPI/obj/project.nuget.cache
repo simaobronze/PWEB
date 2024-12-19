@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VKkf+SS91U8=",
+  "dgSpecHash": "tlPm8b5TJ90=",
   "success": true,
-  "projectFilePath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
+  "projectFilePath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xbbro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\xbbro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
