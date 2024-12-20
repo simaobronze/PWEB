@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|solutionrelative:restfulapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{41E4F334-2BD8-483B-B719-C4438B7702B0}|RESTfulAPI\\RESTfulAPI.csproj|c:\\users\\xbbro\\desktop\\24_25\\pweb\\trabalhopratico\\pweb\\restfulapi\\restfulapi\\restfulapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -43,84 +35,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "RESTfulAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:44:01.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "RESTfulAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:43:59.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "RESTfulAPI\\Controllers\\CategoriesController.cs",
               "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "RESTfulAPI\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:43:57.605Z",
+              "WhenOpened": "2024-12-20T00:58:33.947Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "RESTfulAPI\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "RESTfulAPI\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:42:45.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "RESTfulAPI\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Entities\\Order.cs",
-              "RelativeToolTip": "RESTfulAPI\\Entities\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:37:13.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "RESTfulAPI\\Entities\\Category.cs",
               "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Entities\\Category.cs",
               "RelativeToolTip": "RESTfulAPI\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:37:11.837Z",
+              "WhenOpened": "2024-12-20T00:56:35.586Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Program.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Program.cs",
+              "RelativeToolTip": "RESTfulAPI\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:46:44.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "RESTfulAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "RESTfulAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowC0AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T00:41:19.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RESTfulAPI.csproj",
               "DocumentMoniker": "C:\\Users\\xbbro\\Desktop\\24_25\\PWEB\\trabalhopratico\\PWEB\\RESTfulAPI\\RESTfulAPI\\RESTfulAPI.csproj",
               "RelativeDocumentMoniker": "RESTfulAPI\\RESTfulAPI.csproj",
@@ -128,8 +94,7 @@
               "RelativeToolTip": "RESTfulAPI\\RESTfulAPI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-18T23:35:47.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T23:35:47.218Z"
             }
           ]
         }

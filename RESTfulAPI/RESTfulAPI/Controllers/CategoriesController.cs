@@ -17,9 +17,11 @@
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAll()
+        public async Task<IActionResult> GetCategories()
         {
-            var categories = await _context.Categories.ToListAsync();
+            var categories = await _context.Categories
+                                           .Include(c => c.SubCategories)
+                                           .ToListAsync();
             return Ok(categories);
         }
 
@@ -32,11 +34,52 @@
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create(Category category)
+        public async Task<IActionResult> PostCategory(Category category)
         {
-            _context.Categories.Add(category);
-            await _context.SaveChangesAsync();
+            if (category.ParentCategoryId.HasValue)
+            {
+                var parentCategory = await _context.Categories.FindAsync(category.ParentCategoryId.Value);
+                if (parentCategory == null)
+                {
+                    return BadRequest("Categoria pai não encontrada.");
+                }
+                category.ParentCategory = parentCategory;
+            }
+
+            var existingCategory = await _context.Categories.AsNoTracking().FirstOrDefaultAsync(c => c.Id == category.Id);
+            if (existingCategory != null)
+            {
+                _context.Entry(existingCategory).State = EntityState.Detached;
+                _context.Entry(category).State = EntityState.Modified;
+            }
+            else
+            {
+                _context.Categories.Add(category);
+            }
+
+            try
+            {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateException)
+            {
+                if (CategoryExists(category.Id))
+                {
+                    return Conflict();
+                }
+                else
+                {
+                    throw;
+                }
+            }
+
             return CreatedAtAction(nameof(GetById), new { id = category.Id }, category);
+        }
+
+
+        private bool CategoryExists(int id)
+        {
+            return _context.Categories.Any(e => e.Id == id);
         }
 
         [HttpPut("{id}")]

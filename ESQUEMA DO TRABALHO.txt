@@ -1,0 +1,86 @@
+PediTiscosSolution
+├── PediTiscos.Frontend
+│   ├── Pages
+│   │   ├── Index.razor            - Página inicial
+│   │   ├── Products.razor         - Página para listar produtos
+│   │   ├── ProductDetails.razor   - Página de detalhes de um produto
+│   │   ├── Cart.razor             - Carrinho de compras
+│   │   ├── Checkout.razor         - Finalização de compra
+│   │   └── Orders.razor           - Histórico de encomendas do cliente
+│   ├── Components
+│   │   ├── ProductCard.razor      - Componente de exibição de produto
+│   │   ├── CategoryFilter.razor   - Filtro de categorias
+│   │   └── NavMenu.razor          - Menu de navegação
+│   ├── wwwroot
+│   │   ├── css
+│   │   │   └── styles.css         - Estilos personalizados
+│   │   └── img                   - Imagens estáticas
+│   ├── Services
+│   │   ├── ProductService.cs      - Lógica para interagir com o API de produtos
+│   │   ├── AuthService.cs         - Lógica de autenticação e autorização
+│   │   └── OrderService.cs        - Lógica para gerenciar encomendas
+│   └── App.razor                  - Componente raiz da aplicação
+│
+├── PediTiscos.API
+│   ├── Controllers
+│   │   ├── AuthController.cs      - Controlador para autenticação
+│   │   ├── ProductsController.cs  - Controlador para produtos
+│   │   ├── CategoriesController.cs - Controlador para categorias
+│   │   ├── OrdersController.cs    - Controlador para encomendas
+│   │   └── AdminController.cs     - Controlador para administração
+│   ├── Models
+│   │   ├── Product.cs             - Modelo de produto
+│   │   ├── Category.cs            - Modelo de categoria
+│   │   ├── Order.cs               - Modelo de encomenda
+│   │   ├── OrderItem.cs           - Modelo de item de encomenda
+│   │   └── User.cs                - Modelo de utilizador (herda de IdentityUser)
+│   ├── Data
+│   │   ├── ApplicationDbContext.cs - Configuração do Entity Framework e Identity
+│   │   └── SeedData.cs            - População inicial de dados
+│   ├── DTOs
+│   │   ├── RegisterRequest.cs     - DTO para registro de utilizadores
+│   │   ├── LoginRequest.cs        - DTO para login
+│   │   ├── ProductDTO.cs          - DTO para produtos
+│   │   ├── OrderDTO.cs            - DTO para encomendas
+│   │   └── AuthDTO.cs             - DTO para autenticação
+│   ├── Utilities
+│   │   └── JwtHelper.cs           - Auxiliar para geração de tokens JWT (se necessário)
+│   └── Program.cs                 - Ponto de entrada da aplicação
+│
+├── PediTiscos.StoreManager
+│   ├── Pages
+│   │   ├── Dashboard.razor        - Painel principal
+│   │   ├── ManageProducts.razor   - Página para gestão de produtos
+│   │   ├── ManageOrders.razor     - Página para gestão de encomendas
+│   │   ├── ManageUsers.razor      - Página para gestão de utilizadores
+│   │   └── Reports.razor          - Relatórios
+│   ├── Components
+│   │   ├── ProductTable.razor     - Tabela de produtos
+│   │   ├── OrderTable.razor       - Tabela de encomendas
+│   │   └── UserTable.razor        - Tabela de utilizadores
+│   ├── Services
+│   │   ├── ProductManagementService.cs - Lógica para gerir produtos
+│   │   ├── OrderManagementService.cs   - Lógica para gerir encomendas
+│   │   └── UserManagementService.cs    - Lógica para gerir utilizadores
+│   └── App.razor                  - Componente raiz da aplicação
+│
+├── Shared
+│   ├── Models
+│   │   ├── BaseModel.cs           - Modelo base com propriedades comuns
+│   │   ├── AuditInfo.cs           - Informação de auditoria
+│   │   └── Enums.cs               - Enumerações para uso comum
+│   ├── Services
+│   │   └── NotificationService.cs - Serviço para envio de notificações
+│   └── Utilities
+│       ├── Constants.cs           - Constantes do projeto
+│       └── Helpers.cs             - Métodos utilitários
+│
+├── Tests
+│   ├── PediTiscos.Tests.Frontend
+│   │   └── FrontendTests.cs       - Testes para a aplicação frontend
+│   ├── PediTiscos.Tests.API
+│   │   └── ApiTests.cs            - Testes para a API
+│   └── PediTiscos.Tests.StoreManager
+│       └── StoreManagerTests.cs   - Testes para a aplicação de gestão de loja
+│
+└── README.md                      - Documentação do projeto

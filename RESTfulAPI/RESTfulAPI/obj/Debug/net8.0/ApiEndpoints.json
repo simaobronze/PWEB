@@ -1,7 +1,49 @@
 [
   {
+    "ContainingType": "RESTfulAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RESTfulAPI.Dbo.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RESTfulAPI.Controllers.AuthController",
+    "Method": "Logout",
+    "RelativePath": "api/Auth/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RESTfulAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RESTfulAPI.Dbo.RegisterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "RESTfulAPI.Controllers.CategoriesController",
-    "Method": "GetAll",
+    "Method": "GetCategories",
     "RelativePath": "api/Categories",
     "HttpMethod": "GET",
     "IsController": true,
@@ -11,7 +53,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.CategoriesController",
-    "Method": "Create",
+    "Method": "PostCategory",
     "RelativePath": "api/Categories",
     "HttpMethod": "POST",
     "IsController": true,
@@ -80,7 +122,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.OrdersController",
-    "Method": "GetAll",
+    "Method": "GetOrders",
     "RelativePath": "api/Orders",
     "HttpMethod": "GET",
     "IsController": true,
@@ -90,7 +132,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.OrdersController",
-    "Method": "Create",
+    "Method": "CreateOrder",
     "RelativePath": "api/Orders",
     "HttpMethod": "POST",
     "IsController": true,
@@ -159,7 +201,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.ProductsController",
-    "Method": "GetAll",
+    "Method": "GetProducts",
     "RelativePath": "api/Products",
     "HttpMethod": "GET",
     "IsController": true,
@@ -169,7 +211,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.ProductsController",
-    "Method": "Create",
+    "Method": "AddProduct",
     "RelativePath": "api/Products",
     "HttpMethod": "POST",
     "IsController": true,
@@ -185,7 +227,7 @@
   },
   {
     "ContainingType": "RESTfulAPI.Controllers.ProductsController",
-    "Method": "GetById",
+    "Method": "GetProduct",
     "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
